@@ -115,12 +115,6 @@ The script uses the frozen CSV snapshot in `data/raw/`, so it can be reproduced 
 
 Stress assumptions are intentionally transparent and editable. They are screening assumptions, not forecasts.
 
-## CV-safe wording
-
-> **UK Corporate Credit Watch | Independent Project | Oct 2026 – Present**  
-> Built a Python- and Excel-based early-warning tool covering **15 UK-listed companies across 5 sectors and 60 company-years**, generating **10+ credit/trend indicators and 45 scenario-company stress tests** from source-traceable public financial data.  
-> Converted the 15-name universe into **3 RED / 6 AMBER / 6 GREEN** monitoring priorities, flagging Vodafone at **1.42x interest coverage (0.91x under severe stress)** and Rentokil after debt rose **18.7% YoY**.
-
 ## Disclaimer
 
 For educational and portfolio demonstration purposes only. This is a relative monitoring screen and does not constitute investment advice, a credit rating or a probability-of-default model.
