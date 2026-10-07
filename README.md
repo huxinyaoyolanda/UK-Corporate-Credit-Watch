@@ -24,7 +24,7 @@ It converts a frozen, source-traceable public financial snapshot into:
 - **60 company-years**
 - **10+ derived leverage, coverage, cash-flow and trend signals**
 - **3 stress scenarios / 45 scenario-company stress tests**
-- Python analytical pipeline + Excel audit/dashboard layer
+- Python analytical pipeline + companion Excel audit/dashboard model
 
 ## Current watchlist snapshot
 
@@ -49,31 +49,29 @@ That design is deliberate: the objective is to demonstrate that Python, Excel an
 ## Repository structure
 
 ```text
-UK_Corporate_Credit_Watch/
+UK-Corporate-Credit-Watch/
 ├── README.md
 ├── requirements.txt
 ├── run_project.bat
 ├── run_project.sh
+├── project_log.md
 ├── data/
 │   ├── raw/
 │   │   └── uk_corporate_financials.csv
 │   └── sources/
+│       ├── README.md
 │       └── source_registry.csv
 ├── src/
 │   ├── config.py
 │   └── credit_watch.py
-├── model/
-│   └── UK_Corporate_Credit_Watch.xlsx
 ├── output/
-│   ├── metrics.csv
-│   ├── stress_results.csv
-│   ├── watchlist.csv
 │   ├── latest_snapshot.csv
-│   ├── portfolio_review.md
-│   └── charts/
+│   └── portfolio_review.md
 └── docs/
-    └── Methodology_and_Interview_Guide.docx
+    └── methodology.md
 ```
+
+Running the Python pipeline regenerates the fuller metric, stress-test and chart outputs locally. A companion Excel workbook is maintained separately as the presentation / audit layer.
 
 ## How to run
 
